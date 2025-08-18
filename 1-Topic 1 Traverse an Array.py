@@ -31,7 +31,7 @@ Question: Given a permutation array nums, build an array ans where ans[i] = nums
 
 build_array(nums):
     n = len(nums)
-    result = [0]*n                       # placeholder array
+    result = [0]*n                       # placeholder array    !! can we use append ? 
     for i in range(n):                   # traverse indices
         result[i] = nums[nums[i]]        # map index → value → new index
     return result
@@ -41,7 +41,7 @@ build_array(nums):
 Question: Given an integer array nums, return the array ans of length 2n where ans[i] = nums[i] and ans[i+n] = nums[i].
 
 get_concatenation(nums):
-    return nums + nums                   # simply append same list twice
+    return nums + nums                   # simply append same list twice  !! adding and concatenation of list ?
 
 
 MEDIUM
@@ -52,7 +52,7 @@ Question: Return array where result[i] = product of all elements except nums[i].
 
 product_except_self(nums):
     n = len(nums)
-    left = [1]*n                         # prefix product
+    left = [1]*n                         # prefix product !! append ?
     right = [1]*n                        # suffix product
     
     for i in range(1, n):                # fill prefix
