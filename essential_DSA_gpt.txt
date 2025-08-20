@@ -1,0 +1,93 @@
+Essential DSA Interview Roadmap (Subcases Separated)
+| Stage                      | Topic                       | Subcase                                                                 | Confidence Milestone (🎯)                        |
+| -------------------------- | --------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------ |
+| **1: Fundamentals**        | Arrays                      | Traversal                                                               | Can solve medium array problems without hints    |
+|                            | Arrays                      | Insertion                                                               |                                                  |
+|                            | Arrays                      | Deletion                                                                |                                                  |
+|                            | Arrays                      | Reverse                                                                 |                                                  |
+|                            | Arrays                      | Rotate / Shift                                                          |                                                  |
+|                            | Arrays                      | Prefix sums / Kadane’s algorithm                                        |                                                  |
+|                            | Arrays                      | Two pointers (pairs/triplets, Dutch flag)                               |                                                  |
+|                            | Arrays                      | Sliding window (subarray sums, max window)                              |                                                  |
+|                            | Strings                     | Palindrome check                                                        | String manipulation feels natural                |
+|                            | Strings                     | Reverse words                                                           |                                                  |
+|                            | Strings                     | Anagram check                                                           |                                                  |
+|                            | Strings                     | Frequency count                                                         |                                                  |
+|                            | Strings                     | Substring search                                                        |                                                  |
+|                            | Strings                     | Longest substring problems                                              |                                                  |
+|                            | Recursion                   | Factorial                                                               | Comfortable writing recursive solutions          |
+|                            | Recursion                   | Fibonacci                                                               |                                                  |
+|                            | Recursion                   | Tower of Hanoi                                                          |                                                  |
+|                            | Recursion                   | Generate subsets                                                        |                                                  |
+|                            | Recursion                   | Generate permutations                                                   |                                                  |
+|                            | Recursion                   | Divide & conquer basics (binary search recursion, merge sort recursion) |                                                  |
+| **2: Linear DS**           | Linked Lists                | Single linked list insert                                               | Can implement linked list ops without reference  |
+|                            | Linked Lists                | Single linked list delete                                               |                                                  |
+|                            | Linked Lists                | Reverse linked list                                                     |                                                  |
+|                            | Linked Lists                | Middle node                                                             |                                                  |
+|                            | Linked Lists                | Detect cycle (Floyd’s)                                                  |                                                  |
+|                            | Linked Lists                | Merge 2 sorted lists                                                    |                                                  |
+|                            | Linked Lists                | Doubly linked list basics                                               |                                                  |
+|                            | Linked Lists                | Circular linked list basics                                             |                                                  |
+|                            | Stacks                      | Array implementation                                                    | Stack apps are routine                           |
+|                            | Stacks                      | Linked list implementation                                              |                                                  |
+|                            | Stacks                      | Balanced parentheses                                                    |                                                  |
+|                            | Stacks                      | Min stack                                                               |                                                  |
+|                            | Stacks                      | Infix → Postfix                                                         |                                                  |
+|                            | Stacks                      | Evaluate postfix                                                        |                                                  |
+|                            | Queues                      | Queue implementation                                                    | Knows when to pick queue vs stack                |
+|                            | Queues                      | Circular queue                                                          |                                                  |
+|                            | Queues                      | Deque                                                                   |                                                  |
+|                            | Queues                      | Priority queue basics                                                   |                                                  |
+| **3: Hierarchical DS**     | Trees                       | Tree traversals (inorder, preorder, postorder)                          | Can solve binary tree path/height/LCA problems   |
+|                            | Trees                       | Level order traversal                                                   |                                                  |
+|                            | Trees                       | Height calculation                                                      |                                                  |
+|                            | Trees                       | Diameter of tree                                                        |                                                  |
+|                            | Trees                       | Balanced check                                                          |                                                  |
+|                            | Trees                       | Lowest common ancestor                                                  |                                                  |
+|                            | Trees                       | BST insert                                                              |                                                  |
+|                            | Trees                       | BST delete                                                              |                                                  |
+|                            | Trees                       | BST search                                                              |                                                  |
+|                            | Trees                       | AVL basics                                                              |                                                  |
+|                            | Heaps                       | Build heap                                                              | Heap problems feel natural                       |
+|                            | Heaps                       | Heapify                                                                 |                                                  |
+|                            | Heaps                       | Heap sort                                                               |                                                  |
+|                            | Heaps                       | Priority queue applications (k largest, kth smallest, median)           |                                                  |
+|                            | Graphs                      | BFS (iterative & recursive)                                             | Can code BFS/DFS + detect cycles confidently     |
+|                            | Graphs                      | DFS (iterative & recursive)                                             |                                                  |
+|                            | Graphs                      | Connected components                                                    |                                                  |
+|                            | Graphs                      | Cycle detection (undirected & directed)                                 |                                                  |
+|                            | Graphs                      | Shortest path (Dijkstra, BFS for unweighted)                            |                                                  |
+|                            | Graphs                      | Topological sort                                                        |                                                  |
+| **4: Algorithms**          | Searching & Sorting         | Binary search                                                           | Can derive binary search variations under stress |
+|                            | Searching & Sorting         | Binary search variations (first/last occurrence, rotated array)         |                                                  |
+|                            | Searching & Sorting         | Merge sort                                                              |                                                  |
+|                            | Searching & Sorting         | Quick sort                                                              |                                                  |
+|                            | Searching & Sorting         | Counting sort                                                           |                                                  |
+|                            | Searching & Sorting         | Radix sort                                                              |                                                  |
+|                            | Hashing                     | Hash table concept & collision                                          | Thinks of hashmap as first solution              |
+|                            | Hashing                     | Frequency maps                                                          |                                                  |
+|                            | Hashing                     | Set lookups                                                             |                                                  |
+|                            | Hashing                     | Subarray sum problems                                                   |                                                  |
+|                            | Hashing                     | 2-sum / 3-sum                                                           |                                                  |
+|                            | Hashing                     | Group anagrams                                                          |                                                  |
+|                            | Backtracking                | N-Queens                                                                | Can trace recursion tree and prune               |
+|                            | Backtracking                | Rat in a maze                                                           |                                                  |
+|                            | Backtracking                | Sudoku solver                                                           |                                                  |
+|                            | Backtracking                | Subsets & permutations                                                  |                                                  |
+|                            | Dynamic Programming         | Fibonacci DP                                                            | Can break down problems into “choice + state”    |
+|                            | Dynamic Programming         | 0/1 Knapsack                                                            |                                                  |
+|                            | Dynamic Programming         | Coin change                                                             |                                                  |
+|                            | Dynamic Programming         | Longest common subsequence (LCS)                                        |                                                  |
+|                            | Dynamic Programming         | Longest increasing subsequence (LIS)                                    |                                                  |
+|                            | Dynamic Programming         | Matrix DP (unique paths, min path sum)                                  |                                                  |
+| **5: Advanced / Optional** | Tries                       | Insert                                                                  | Understands prefix tree                          |
+|                            | Tries                       | Search                                                                  |                                                  |
+|                            | Tries                       | Auto-complete / prefix search                                           |                                                  |
+|                            | Advanced Graphs             | Minimum spanning tree (Kruskal/Prim)                                    | Ready for harder graph Qs                        |
+|                            | Advanced Graphs             | Bellman-Ford                                                            |                                                  |
+|                            | Advanced Graphs             | Floyd-Warshall                                                          |                                                  |
+|                            | Advanced Graphs             | Union-Find (DSU, cycle detect)                                          |                                                  |
+|                            | Segment Tree / Fenwick Tree | Range sum queries                                                       | Can explain usage                                |
+|                            | Segment Tree / Fenwick Tree | Range min/max queries                                                   |                                                  |
+|                            | Segment Tree / Fenwick Tree | Lazy propagation (concept)                                              |                                                  |
