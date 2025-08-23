@@ -1,0 +1,63 @@
+
+PHASE 1 - PYTHON DATA STRUCTURES (IMMUTABILITY, HASHABILITY, SETS, DICTIONARIES, COPY, IDENTITY)
+
+---
+
+### KEY CONCEPTS COVERED
+
+1. **Lists vs Tuples**
+   - Lists are mutable, Tuples are immutable.
+   - Tuples can hold mutable objects but remain immutable themselves.
+   - Tuples can be used as dictionary keys if all their elements are hashable.
+
+2. **Hashability**
+   - An object is hashable if it has a hash value that doesn’t change during its lifetime.
+   - Mutable objects like lists are not hashable.
+   - Immutable objects like tuples, strings, and numbers are hashable.
+
+3. **Sets**
+   - Unordered collection of unique, hashable elements.
+   - Cannot contain mutable types like lists or sets themselves.
+
+4. **Dictionaries**
+   - Key-value mapping.
+   - Keys must be unique and hashable.
+   - Values can be of any type.
+
+5. **Copy vs Assignment**
+   - Assignment just creates a new reference to the same object.
+   - Shallow copy creates a new object but nested mutable objects are still linked.
+   - Deep copy creates a completely independent object.
+
+6. **Identity vs Equality**
+   - `is` checks if two variables point to the same memory address.
+   - `==` checks if the values are equal.
+
+7. **Special Cases**
+   - Tuples containing mutable objects are unhashable.
+   - Using mutable objects as dictionary keys or set elements raises `TypeError`.
+
+---
+
+### STARRED QUESTIONS (IMPORTANT INTERVIEW POINTS)
+
+- **Q26**: Why is `({[1,2]:3})` invalid?
+  - Answer: Because list `[1,2]` is mutable and not hashable, hence cannot be used as a dictionary key.
+
+---
+
+### PHASE 1 QUESTIONS (Q&A)
+
+(Here follows all questions and answers recorded as we went along, including errors, reasoning, and explanations…)
+
+...
+
+### PHASE 1 FINAL RECAP
+
+- Mutability & Immutability
+- Hashability & Hash Values
+- Sets and Dictionary Rules
+- Copy Mechanisms (Shallow vs Deep)
+- Identity vs Equality
+
+---

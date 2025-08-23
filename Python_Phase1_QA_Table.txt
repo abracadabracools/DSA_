@@ -1,0 +1,20 @@
+
+PHASE 1 - PYTHON INTERVIEW QUESTIONS (Q&A TABLE)
+
+| Q No. | Question                                                | Answer / Reasoning                                         | ★ |
+|-------|--------------------------------------------------------|-----------------------------------------------------------|---|
+| Q1    | Are lists mutable?                                     | Yes                                                       |   |
+| Q2    | Can tuples contain mutable objects?                    | Yes, they can hold mutable objects like lists            |   |
+| Q3    | Why are tuples immutable?                              | Because their memory layout is fixed; ensures hashability| ★ |
+| Q4    | Assignment vs Shallow Copy?                            | Assignment = same address, Shallow Copy = new outer object|   |
+| Q5    | Deep Copy?                                             | Creates independent copy of all nested objects           | ★ |
+| Q6    | What is hashability?                                   | Ability of object to have constant hash value            | ★ |
+| Q7    | Why can tuples be dict keys but lists cannot?         | Tuples immutable/hashable; lists mutable/unhashable      | ★ |
+| Q8    | Set vs Dictionary ordering?                            | Set unordered, Dict ordered (3.7+)                       |   |
+| Q9    | Set element requirements?                              | Unique and hashable                                      | ★ |
+| Q10   | Shallow vs Deep Copy with nested data?                 | Shallow shares inner data; Deep copies all levels        | ★ |
+| Q11   | `is` vs `==`?                                          | `is` checks address, `==` checks value                   | ★ |
+| Q12   | Can list be dict key?                                  | No, not hashable                                         |   |
+| Q13   | Can tuple containing list be dict key?                 | No, not hashable because list is mutable                 | ★ |
+| Q14   | Common set operations example?                         | Intersection, Union, Difference                          |   |
+| Q15   | Dictionary key requirements?                           | Must be unique and hashable                              |   |
