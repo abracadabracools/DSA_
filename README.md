@@ -18,7 +18,11 @@
 
 ## 3. Linked Lists
 - [x] Singly LL Basics
-- [x] Insertion/Deletion
+- [x] Insertion
+  - [x] at begining
+  - [x] at position
+  - [x] at end    
+- [x] Deletion
 - [ ] Reverse LL
 - [ ] Detect Loop (Floyd’s)
 - [ ] Merge Two LLs
