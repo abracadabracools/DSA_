@@ -3,8 +3,8 @@
 
 ## 1. Arrays
 - [x] Basic Traversal
-- [ x] Min/Max
-- [ x] Reverse
+- [x] Min/Max
+- [x] Reverse
 - [ ] Rotation (Left/Right)
 - [ ] Binary Search Variants
 - [ ] Two-Pointer Problems
