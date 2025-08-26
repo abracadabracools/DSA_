@@ -23,7 +23,10 @@
   - [x] at position
   - [x] at end    
 - [x] Deletion
-- [ ] Reverse LL
+  - [x] at begining
+  - [x] at position
+  - [x] at end 
+- [x] Reverse LL
 - [ ] Detect Loop (Floyd’s)
 - [ ] Merge Two LLs
 - [ ] Middle/Intersection Node
